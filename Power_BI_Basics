@@ -1,0 +1,285 @@
+Question 1 : What is Power BI and why is it used in businesses?
+Ans :- 
+Power BI is a business intelligence (BI) and data visualization tool developed by Microsoft that helps organizations turn raw data into meaningful insights through interactive reports 
+and dashboards.
+Power BI allows you to:
+Connect to different data sources (Excel, SQL, cloud, APIs)
+Clean and transform data
+Create charts, dashboards, and reports
+Share insights across teams
+In simple terms:
+Power BI = Tool to analyze data + visualize it + share insight
+Power BI used in business :-
+1. Better Decision Making
+Businesses use Power BI to make data-driven decisions instead of guessing
+Example: A company can track which product sells the most and focus on it
+2. Real-Time Insights
+Dashboards update automatically
+Managers can see live performance (sales, revenue, operations)
+3. Combine Data from Multiple Sources
+Instead of checking different files, Power BI brings everything into one place
+4. Easy Data Visualization
+Converts complex data into:
+Charts
+Graphs
+Maps
+Makes it easier for non-technical users to understand
+5. Performance Tracking (KPIs)
+Track important metrics like:
+Sales growth
+Profit margins
+Customer trends
+6. Time-Saving Automation
+Reduces manual reporting work
+Reports can refresh automatically
+7. Collaboration & Sharing
+Teams can share dashboards online
+Everyone sees the same updated data
+Example (Business Use Case)
+Imagine a food delivery company like Swiggy:
+Track daily orders
+Identify top cities
+Monitor delivery time
+Analyze customer behavior
+All of this can be shown in one Power BI dashboard.
+
+Question 2 : Name and explain the three main components of Power BI.
+1. Power BI Desktop
+What it is:
+A Windows application used to create reports and dashboards.
+What it does:
+Connects to data sources (Excel, SQL, etc.)
+Cleans and transforms data (using Power Query)
+Builds data models and relationships
+Creates visualizations (charts, graphs)
+This is where you build your reports
+2. Power BI Service (PowerBI.com)
+What it is:
+A cloud-based online platform.
+What it does:
+Publish reports created in Desktop
+Create dashboards by combining visuals
+Share reports with others
+Schedule automatic data refresh
+This is where you share and collaborate
+3. Power BI Mobile
+What it is:
+A mobile app available on phones and tablets.
+What it does:
+View dashboards and reports on the go
+Get real-time alerts and updates
+Interact with reports anywhere
+This is where you access reports anytime, anywhere
+Desktop → Create reports
+Service → Share & manage
+Mobile → View on the go
+
+Question 3 : Explain the Power BI workflow.
+
+The **Power BI workflow** is the step-by-step process of turning raw data into useful insights and sharing them with others using Microsoft Power BI.
+
+Power BI Workflow 
+
+1.  Connect to Data
+
+* Import data from sources like:
+
+  * Excel
+  * SQL databases
+  * Web / APIs
+* Power BI can combine multiple data sources into one model
+
+2. Transform & Clean Data (Power Query)
+
+* Remove errors, duplicates
+* Rename columns, change data types
+* Filter unnecessary data
+
+3. Data Modeling
+
+* Create relationships between tables (like joins in SQL)
+* Define calculated columns and measures using **DAX (Data Analysis Expressions)**
+
+4. Create Visualizations (Report Building)
+
+* Design charts, graphs, and tables
+* Add KPIs, slicers (filters), and drill-down features
+* Organize visuals into a clean report layout
+
+5. Publish to Power BI Service
+
+* Upload your report to the cloud (PowerBI.com)
+* Convert reports into dashboards
+
+6. Share & Collaborate
+
+* Share dashboards with team members
+* Set permissions and access control
+* Collaborate in real time
+
+7.Refresh & Maintain
+
+* Schedule automatic data refresh
+* Update reports as new data comes in
+*Connect → Clean → Model → Visualize → Publish → Share → Refresh**
+Example:
+For a sales dataset:
+* Connect → Import Excel sales file
+* Clean → Remove duplicate orders
+* Model → Link customers & orders
+* Visualize → Sales trend, top products
+* Share → Send dashboard to manager
+
+Question 4 : List any four data cleaning tasks that can be performed in Power Query.
+In **Power Query** (inside Microsoft Power BI), you can perform many data cleaning tasks. Here are **four common ones**:
+1. Remove Duplicates
+* Eliminates repeated rows from your dataset
+2. Change Data Types
+* Convert columns into correct formats (Text, Number, Date, etc.)
+3. Handle Missing Values
+* Replace null/blank values with defaults (0, average, or text)
+4. Trim & Clean Text
+* Remove extra spaces, unwanted characters, or formatting issues
+other useful tasks:
+* Rename columns
+* Split or merge columns
+* Filter rows
+* Remove errors
+Power Query helps you **clean messy data → make it structured → ready for analysis**
+
+Question 5 : Write step by step instructions to load the above dataset.
+Here are step-by-step instructions to load a dataset into Power BI using Microsoft Power BI:
+Steps to Load Dataset in Power BI
+1. Open Power BI Desktop
+* Launch **Power BI Desktop** on your system
+2. Click on “Get Data”
+* On the Home tab, click **Get Data**
+* Choose your data source:
+
+  * Excel
+  * CSV
+  * SQL Server
+  * Web, etc.
+3. Select the File
+* Browse and select your dataset file (e.g., Excel or CSV)
+* Click **Open**
+4. Navigator Window
+* A preview of your data will appear
+* Select the sheet or table you want to load
+5. Choose “Load” or “Transform Data”
+* Click **Load** → Directly import data
+  OR
+* Click **Transform Data** → Open Power Query to clean data first
+6. (Optional) Clean Data in Power Query
+* Remove duplicates
+* Change data types
+* Handle missing values
+* Rename columns
+
+Then click **Close & Apply**
+7. Data Loaded Successfully
+* Your dataset will appear in:
+**Data View** (table format)
+**Report View** (for creating visuals)
+**Get Data → Select File → Preview → Load / Transform → Ready to Use**
+Example:
+
+If you have a **Real Estate Excel file**:
+
+* Click Get Data → Excel
+* Select file → Choose sheet
+* Transform (clean data) → Load
+* Start creating dashboard
+
+Question 6 : Define Data View, Report View, and Model View. Explain the purpose of each view.
+In Microsoft Power BI, there are three main working views: Data View, Report View, and Model View. Each serves a different purpose in the data analysis process.
+1. Data View
+Definition:
+Data View displays your data in a **table format (rows and columns).
+Purpose:
+* Inspect and understand your dataset
+* Create **calculated columns**
+* Check data types and values
+* Identify issues like missing or incorrect data
+2. Report View
+Definition:
+Report View is where you create visualizations and dashboards.
+Purpose:
+* Build charts, graphs, and tables
+* Add KPIs, slicers, and filters
+* Design the report layout
+* Interact with data visually
+3. Model View
+Definition:
+Model View shows the **relationships between different tables.
+Purpose:
+* Create and manage relationships (like joins in SQL)
+* Build a proper data model
+* Improve performance and accuracy
+* Organize tables logically
+Simple:
+| View        | What it Shows | Main Use                    |
+| ----------- | ------------- | --------------------------- |
+| Data View   | Tables        | Check & analyze raw data    |
+| Report View | Visuals       | Create dashboards & reports |
+| Model View  | Relationships | Manage data structure       |
+Easy Way to Remember:
+Data View → “See the data”
+Report View → “Show the data”
+Model View → “Connect the data”
+
+Question 7 : Discuss the different data sources that Power BI supports.
+
+Microsoft Power BI supports a wide range of data sources, which is one of the reasons it’s so powerful in business analytics. 
+You can connect to almost any type of data—whether it’s stored locally, in databases, or in the cloud.
+1. File-Based Data Sources
+These are the most common and beginner-friendly:
+* Excel (.xlsx)
+* CSV / Text files
+* XML / JSON
+* PDF
+2. Database Sources
+Power BI can directly connect to databases:
+* SQL Server
+* MySQL
+* Oracle
+* PostgreSQL
+3. Cloud & Online Services
+Connect to cloud platforms and SaaS tools:
+* Microsoft Azure
+* Google Analytics
+* SharePoint
+* Salesforce
+4. Web & APIs
+* Connect to web pages using URLs
+* Use REST APIs to fetch live data
+5. Power Platform & Microsoft Tools
+* Power BI datasets
+* Power Apps
+* Power Automate
+6. Other Sources
+* OData feeds
+* Hadoop / Big Data platforms
+* R and Python scripts
+Power BI supports:Files + Databases + Cloud + Web + Advanced sources**
+Example:
+A company like Real Estate might use:
+* Excel → daily reports
+* SQL → customer database
+* API → live order tracking
+All combined into one Power BI dashboard.
+
+Question 8 : Split Owner Name to create two new columns as First Name and Last Name
+Steps:
+Go to Home → Transform Data (opens Power Query)
+Select the Owner Name column
+Click Split Column (from top menu)
+Choose By Delimiter
+Select Space as delimiter
+Under “Split at”, choose Left-most delimiter
+Click OK
+This will create:
+Column 1 → First Name
+Column 2 → Last Name
+
+
